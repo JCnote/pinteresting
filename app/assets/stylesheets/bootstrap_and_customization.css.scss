@@ -1,8 +1,16 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
 $body-bg: #cddc39;
 $jumbotron-bg: #f0f4c3;
 $navbar-default-bg: #afb42b;
 $navbar-default-link-color: #212121;
 $btn-primary-bg: #ffeb3b;
 $btn-primary-color: #727272;
+$font-family-sans-serif: 'Open Sans', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+
 
 @import 'bootstrap';
+
+.center {
+	text-align: center;
+}
