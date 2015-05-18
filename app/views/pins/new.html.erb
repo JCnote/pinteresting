@@ -1,3 +1,5 @@
+before_action :correct_user, only: [:edit, :update, :destroy]
+
 <h1>New Pin</h1>
 
 <%= render 'form' %>
